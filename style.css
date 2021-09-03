@@ -1,0 +1,76 @@
+body
+{
+    font-family: Source Sans Pro,sans-serif;
+    font-size: 26px;
+    padding: 21px;
+    text-align: center;
+}
+h2{
+    color:	rgb(128,128,128);
+}
+
+.flexxboxx{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+td{
+    height: 60px;
+    width: 60px;
+    border: 1.3px solid #bec6d4;
+    text-align: center;
+    padding: 0px;
+    border-collapse: collapse;
+    background-color: transparent;
+}
+table
+{
+    border-spacing: 0px;
+}
+.sudoku
+{
+    width: fit-content;
+    height: fit-content;
+    margin: 11px auto;
+    border: 3px solid #344861;
+}
+button
+{
+    padding: 6px 13px;
+    width: 80px;
+    height: 30px;
+}
+
+.col3,.col6
+{
+    border-right: 2px solid #344861;
+}
+.row4 td,.row7 td
+{
+    border-top: 2px solid #344861;
+}
+input:hover
+{
+    background-color:rgb(180, 227, 243);
+}
+
+input{
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    font-size: 26px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+input:disabled{
+    background-color: whitesmoke;
+    color: #6b6969;
+}
+.incorrect{
+    border: 5px solid rgba(238, 0, 0, 0.884) !important;
+    background-color: rgba(243, 9, 9, 0.4) !important;
+}
+.select{
+    background-color: rgb(174, 219, 235) !important;
+}
